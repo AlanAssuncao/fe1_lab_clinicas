@@ -99,8 +99,9 @@ class _PatientPageState extends State<PatientPage>
                     visible: patientFound,
                     replacement: const Text(
                       'Preencha o formulário abaixo para fazer o seu cadastro',
+                      textAlign: TextAlign.center,
                       style: TextStyle(
-                        fontSize: 15,
+                        fontSize: 16,
                         fontWeight: FontWeight.w500,
                         color: LabClinicasTheme.blueColor,
                       ),
